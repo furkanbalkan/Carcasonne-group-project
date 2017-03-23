@@ -1,0 +1,24 @@
+#include <stdio.h>
+void print(char (*<a game="#">board</a>)[21]);
+char move(char <a game="#">board</a>[21][21]);
+
+int main()
+{
+
+int N;
+int S;
+int W;
+int E;
+char <a game="#">board</a>[21][21]];
+print("<a game="#">board</a>");
+
+move(<a game="#">board</a>);
+for(N=0; N<21; N++)
+    for(S=0; S<21; S++)
+    for(W=0;W<21;W++)
+    for(E=0;E<21;E++)
+        if (<a game="#">board</a>[S][N][W][E]== '.')
+            move(<a game="#">board</a>);
+ 
+
+printf("\n\n CARCASSONNE ");
